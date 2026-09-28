@@ -1,0 +1,15 @@
+{
+  "probes_touch_filled_but_queue_not": 1181,
+  "share_of_touch_fills_lost_to_queue": 0.08733915101316374,
+  "median_queue_ahead_touch_only": 900.0,
+  "median_queue_ahead_queue_filled": 600.0,
+  "median_queue_ahead_all": 600.0,
+  "queue_probes_with_cleanup_unfilled": 14,
+  "skipped_probe_decisions": 23,
+  "background_fills_not_reproduced_share": 0.3171353811649333,
+  "quote_samples_differing_frac_mean": 0.11244214034438069,
+  "probes_posted_differently": 667,
+  "probe_decisions": 14280,
+  "median_own_queue_ahead": 0.0,
+  "mean_own_share_of_queue_ahead": 0.04373615867162271
+}

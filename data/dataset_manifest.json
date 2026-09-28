@@ -1,0 +1,17 @@
+{
+  "primary_path": "synthetic",
+  "synthetic_model": {
+    "description": "Zero-intelligence order flow: Poisson limit and market order arrivals per side, exponential cancellation of each resting order, limit prices placed 1-10 ticks from the opposite best quote with P(d) proportional to d^-0.5.",
+    "parameters_reference": "DECISIONS.md ADR-001; src/order_flow.py OrderFlowParams",
+    "stress_scenario_reference": "DECISIONS.md ADR-002; src/event_injection.py",
+    "seeds": "0-19 for the study; 1000-1002 used only for no-event calibration",
+    "horizon_seconds": 7200,
+    "generated_by": "scripts/run_study.py (deterministic given seed)"
+  },
+  "real_data_validation_attempted": true,
+  "real_data_obtained": false,
+  "real_data_source": "LOBSTER free sample files (lobsterdata.com)",
+  "real_data_outcome": "Attempted 2026-09-28. The former direct-download sample URLs now return the site's web app instead of data; samples are provided only through a trial-account application reviewed by LOBSTER staff. No real data was downloaded or used.",
+  "real_data_scope_and_limitations": "None applicable: no real data is used anywhere in this repository. No result here should be read as describing a real market, instrument, date or venue.",
+  "supports_research_question": "The synthetic data supports a controlled methodology demonstration of how this model's liquidity responds to a designed stress scenario, and of how fill assumptions change measured execution quality within this model. It does not support claims about real markets."
+}

@@ -1,0 +1,70 @@
+{
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19
+  ],
+  "study_config": {
+    "horizon": 7200.0,
+    "warmup": 1800.0,
+    "event_start": 3600.0,
+    "event_duration": 300.0,
+    "multiplier": 5.0,
+    "side": "SELL",
+    "early_post": 300.0,
+    "recovery_tolerance": 0.1,
+    "recovery_window": 30.0
+  },
+  "order_flow_params": {
+    "limit_rate": 1.0,
+    "market_rate": 0.2,
+    "cancel_rate": 0.05,
+    "max_distance": 10,
+    "distance_alpha": 0.5,
+    "lot": 100,
+    "limit_max_lots": 5,
+    "market_size_p": 0.4,
+    "initial_bid": 9999,
+    "initial_ask": 10001
+  },
+  "probe_config": {
+    "start": 1800.0,
+    "end": 7140.0,
+    "interval": 15.0,
+    "size": 100,
+    "max_wait": 60.0
+  },
+  "robustness_grid": {
+    "multipliers": [
+      2.0,
+      5.0,
+      10.0
+    ],
+    "durations_s": [
+      60.0,
+      300.0,
+      900.0
+    ]
+  },
+  "python": "3.13.7",
+  "numpy": "2.5.3",
+  "pandas": "3.0.6",
+  "matplotlib": "3.11.2"
+}
