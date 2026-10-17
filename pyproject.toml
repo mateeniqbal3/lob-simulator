@@ -1,8 +1,8 @@
 [project]
 name = "lob-simulator"
-version = "0.1.0"
+version = "1.1.0"
 description = "A limit order book matching engine with price-time priority and queue tracking, used for a synthetic liquidity event study."
-authors = [{ name = "Mateen Iqbal" }]
+authors = [{ name = "Muhammad Mateen Iqbal" }]
 readme = "README.md"
 requires-python = ">=3.11"
 license = { text = "MIT" }

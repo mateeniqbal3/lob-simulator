@@ -1,0 +1,32 @@
+cff-version: 1.2.0
+message: "If you use this code or its results, please cite it as below."
+type: software
+title: "A Price-Time Priority Order Book Simulator, a Controlled Liquidity Stress Experiment, and the Cost of Ignoring the Queue"
+abstract: >-
+  A limit order book matching engine with exchange-style price-time
+  priority, verified by invariant checks, a differential test against a
+  brute-force matcher and a 15-bug reintroduction harness. On calibrated
+  zero-intelligence order flow (synthetic only), a pre-specified sell burst
+  widens the spread by a median 1.18 ticks with recovery in under a minute,
+  and passive probe orders that a naive instant-fill assumption books at
+  1.40 ticks of spread earned actually pay 0.26 ticks once queue position
+  is modelled.
+authors:
+  - family-names: "Iqbal"
+    given-names: "Muhammad Mateen"
+    email: "muhammadmateen1024@gmail.com"
+    affiliation: "Institute of Computing & IT, University of Lakki Marwat"
+version: "1.1.0"
+date-released: "2026-10-17"
+license: MIT
+repository-code: "https://github.com/mateeniqbal3/lob-simulator"
+keywords:
+  - limit order book
+  - matching engine
+  - market microstructure
+  - liquidity
+  - queue position
+  - backtesting
+  - simulation
+# After Zenodo mints a DOI, add it here (uncomment and replace):
+# doi: "10.5281/zenodo.XXXXXXX"

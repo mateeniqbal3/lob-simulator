@@ -3,6 +3,28 @@
 All notable changes to this project are documented here. Loosely follows
 [Keep a Changelog](https://keepachangelog.com/).
 
+## [1.1.0] — 2026-10-17 — Working paper
+
+No change to the engine, the experiments or any recorded result.
+
+### Added
+- `paper/writeup.md` upgraded to a working paper: author affiliation,
+  prose abstract, keywords and JEL codes, a related-work paragraph,
+  three figures, an effective-spread definition under the fill table,
+  data-availability and AI-use statements, and full references; built PDF
+  `paper/writeup.pdf`
+- `paper/make_figures.py`: paper and README figures from the committed
+  outputs in `results/`
+- `paper/build_pdf.py`: builds the PDF with pandoc and XeLaTeX
+- README results chart and paper link; `CITATION.cff`
+
+### Changed
+- `pyproject.toml` version 0.1.0 → 1.1.0 (it had not been bumped for
+  1.0.0); author name in `pyproject.toml` and `LICENSE` set to Muhammad
+  Mateen Iqbal
+
+---
+
 ## [1.0.0] — 2026-09-28 — Engine, study and writeup
 
 ### Added

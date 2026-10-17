@@ -3,6 +3,10 @@
 [![CI](https://github.com/mateeniqbal3/lob-simulator/actions/workflows/ci.yml/badge.svg)](https://github.com/mateeniqbal3/lob-simulator/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
+![Synthetic limit order book: ignoring the queue turns a 0.26-tick cost into a 1.40-tick profit](paper/figures/readme_hero.png)
+
+📄 **Working paper:** [`paper/writeup.pdf`](paper/writeup.pdf) (source: [`paper/writeup.md`](paper/writeup.md))
+
 A limit order book matching engine with real price-time priority and
 queue-position tracking. It is used for two things: a controlled
 liquidity event study (how do spread, depth and resilience behave around
@@ -222,7 +226,10 @@ analysis flow.
 - [`TASKS.md`](TASKS.md) — granular task checklist
 - [`CHANGELOG.md`](CHANGELOG.md) — version history
 - [`docs/`](docs/) — engine verification, fill comparison, event study
-- [`paper/writeup.md`](paper/writeup.md) — full research writeup
+- [`paper/writeup.md`](paper/writeup.md) — working paper (PDF:
+  [`paper/writeup.pdf`](paper/writeup.pdf)); figures from
+  `python paper/make_figures.py`, PDF from `python paper/build_pdf.py`
+- [`CITATION.cff`](CITATION.cff) — how to cite this project
 
 ## Running Locally
 

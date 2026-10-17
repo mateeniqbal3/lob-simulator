@@ -82,6 +82,7 @@ framing applies to how every later result is described.
 ## Phase 10 — Writeup
 
 - [x] `paper/writeup.md`
+- [x] Working paper v1.1.0: PDF, figures, `CITATION.cff`
 
 ## Phase 11 — Documentation Polish
 
