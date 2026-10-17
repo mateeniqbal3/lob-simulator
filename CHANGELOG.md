@@ -17,6 +17,9 @@ No change to the engine, the experiments or any recorded result.
   outputs in `results/`
 - `paper/build_pdf.py`: builds the PDF with pandoc and XeLaTeX
 - README results chart and paper link; `CITATION.cff`
+- `paper/build_arxiv.py` and `paper/arxiv/main.tex`: arXiv-ready LaTeX
+  source (pdfLaTeX, standard packages, references inline); the script also
+  writes the upload zip and can compile it as a check
 
 ### Changed
 - `pyproject.toml` version 0.1.0 → 1.1.0 (it had not been bumped for

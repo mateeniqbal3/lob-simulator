@@ -229,6 +229,8 @@ analysis flow.
 - [`paper/writeup.md`](paper/writeup.md) — working paper (PDF:
   [`paper/writeup.pdf`](paper/writeup.pdf)); figures from
   `python paper/make_figures.py`, PDF from `python paper/build_pdf.py`
+- [`paper/arxiv/main.tex`](paper/arxiv/main.tex) — arXiv LaTeX source;
+  `python paper/build_arxiv.py` rebuilds it and the upload zip
 - [`CITATION.cff`](CITATION.cff) — how to cite this project
 
 ## Running Locally

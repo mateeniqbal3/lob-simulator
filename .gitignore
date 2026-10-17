@@ -21,3 +21,7 @@ Thumbs.db
 .vscode/
 .idea/
 *.log
+
+# arXiv bundle and local compile check (rebuilt by paper/build_arxiv.py)
+paper/arxiv/arxiv_submission.zip
+paper/arxiv/main_check.pdf
